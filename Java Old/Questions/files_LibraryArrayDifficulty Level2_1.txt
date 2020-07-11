@@ -1,0 +1,73 @@
+Concept - Array Difficulty Level 2
+
+Create a class Library with below attributes:
+
+int - id
+
+String - name
+
+String - address
+
+Make all the attributes private.Create corresponding getters and setters.
+
+Create a constructor which takes all parameters in the above sequence. The constructor should set the value of attributes to parameter values inside the constructor.
+
+Create a class LibraryDemo with main method
+
+Create a static method replaceLibraryById in the LibraryDemo class. This method will take array of Library objects and one Library object as input. Replace the Library object with same id if found in the array and return true. Else return false
+
+Create an array of 5 Library objects in the main method
+Refer below sample main method and test the output:
+
+Call the above static method from the main method
+
+
+public class LibraryDemo {
+public static void main(String args[]){
+Library library1= new Library(33,"drfnfuk","cqisthj");
+Library library2= new Library(78,"xhzebcf","nnpwbrf");
+Library library3= new Library(68,"qnoquku","qstcebj");
+Library library4= new Library(81,"ghgwsjm","xlewgbj");
+Library library5= new Library(47,"wgioqsg","vjtwscm");
+
+
+Library[] objArray= {library1,library2,library3,library4,library5};
+Library libraryRes1= new Library(18,"rmgjynm","qxkhlbb");
+
+boolean result= replaceLibraryById(objArray, libraryRes1);
+System.out.println("Output for performing replace on libraryRes1 is: "+ result  );          
+
+System.out.println("Displaying contents of array: ");
+
+for(Library library:objArray){
+System.out.println(library.getId()+" " + library.getName()+" " + library.getAddress()+" ");
+}
+System.out.println();
+
+Library libraryRes2= new Library(47,"tvistro","rnpholx");
+result= replaceLibraryById(objArray, libraryRes2);
+
+System.out.println("Output for performing replace on libraryRes2 is: "+ result  );          
+
+System.out.println("Displaying contents of array: ");
+
+for(Library library:objArray){
+System.out.println(library.getId()+" " + library.getName()+" " + library.getAddress()+" ");
+}
+}}
+Output
+Output for performing replace on libraryRes1 is: false
+Displaying contents of array: 
+33 drfnfuk cqisthj 
+78 xhzebcf nnpwbrf 
+68 qnoquku qstcebj 
+81 ghgwsjm xlewgbj 
+47 wgioqsg vjtwscm 
+
+Output for performing replace on libraryRes2 is: true
+Displaying contents of array: 
+33 drfnfuk cqisthj 
+78 xhzebcf nnpwbrf 
+68 qnoquku qstcebj 
+81 ghgwsjm xlewgbj 
+47 tvistro rnpholx 

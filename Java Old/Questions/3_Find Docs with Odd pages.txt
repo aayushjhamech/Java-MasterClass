@@ -1,0 +1,115 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+      Scanner sc = new Scanner(System.in);
+        Document[] docs = new Document[4];
+        
+        for(int i = 0;i<docs.length;i++)
+        {
+            int id = sc.nextInt();sc.nextLine();
+            String title = sc.nextLine();
+            String folderName = sc.nextLine();
+            int pages = sc.nextInt();
+            
+            docs[i] = new Document(id,title,folderName,pages);
+                      
+        }
+        
+          Document[] newDocs = docsWithOddPages(docs);
+            
+           for(Document doc:newDocs)
+           {
+               System.out.println(doc.getId() + " " + doc.getTitle() + " " + doc.getFolderName() + " " + doc.getPages());
+           }
+    }
+    
+    public static Document[] docsWithOddPages(Document[] docs)
+    {
+        Document[] newDocs = null;
+        
+        int n = 0;
+        
+        for(Document doc:docs)
+        {
+            if(doc.getPages()%2 == 1) n++;
+        }
+        
+        newDocs = new Document[n];
+        
+        n = 0;
+        
+        for(Document doc:docs)
+        {
+            if(doc.getPages()%2 == 1) newDocs[n++] = doc;
+        }
+        
+        for(int i = 0;i<newDocs.length;i++)
+        {
+            for(int j = 0;j<i;j++)
+            {
+                if(newDocs[i].getId() < newDocs[j].getId())
+                {
+                    Document tmp = newDocs[i];
+                    newDocs[i] = newDocs[j];
+                    newDocs[j] = tmp;
+                }
+            }
+        }
+        
+        return newDocs;
+    }
+}
+
+class Document
+{
+    private int id;
+    private String title;
+    private String folderName;
+	private int pages;
+	
+    public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getFolderName() {
+		return folderName;
+	}
+
+	public void setFolderName(String folderName) {
+		this.folderName = folderName;
+	}
+
+	public int getPages() {
+		return pages;
+	}
+
+	public void setPages(int pages) {
+		this.pages = pages;
+	}
+
+
+    
+    public Document(int id, String title, String folderName, int pages)
+    {
+        this.id = id;
+        this.title = title;
+        this.folderName = folderName;
+        this.pages = pages;
+    }
+}

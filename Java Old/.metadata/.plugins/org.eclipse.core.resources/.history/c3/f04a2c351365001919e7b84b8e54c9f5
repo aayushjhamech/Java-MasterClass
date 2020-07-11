@@ -1,0 +1,69 @@
+package tcs;
+import java.util.Scanner;
+public class Solution {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc= new Scanner(System.in);
+		int size= sc.nextInt();
+		Cars[] cararray= new Cars[size];
+		for(int i=0; i<cararray.length; i++)
+		{
+			int id=sc.nextInt(); sc.nextLine();
+			String name= sc.nextLine(); 
+			String fuel= sc.next();
+			int price= sc.nextInt();
+			int mil= sc.nextInt();
+			
+			cararray[i]= new Cars(id, name, fuel, price, mil);
+		}
+		
+		System.out.println("Enter fuel:");
+		String f= sc.nextLine();
+		Cars[] carres= sortBymil(cararray, f);
+		for(Cars a:carres)
+		{
+			System.out.println(a.getId()+" "+a.getFuel()+" "+a.getMil());
+		}
+		
+
+	}
+
+	private static Cars[] sortBymil(Cars[] cararray, String f) 
+	{
+		int size=0;
+		for(int i=0; i<cararray.length;i++)
+		{
+			if(cararray[i].getFuel().equals(f))
+			{
+				size++;
+			}
+		}
+		
+		int x=0;
+		Cars[] temp= new Cars[size];
+		for(int i=0; i<cararray.length;i++)
+		{
+			if(cararray[i].getFuel().equals(f))
+			{
+				temp[x]= cararray[i];
+				x++;
+			}
+		}
+		Cars t;
+		for(int i=0; i<temp.length; i++)
+		{
+			for(int j=i+1; j<temp.length; j++)
+			{
+				if(temp[i].getMil()>temp[j].getMil())
+				{
+					t= temp[i];
+					temp[i]= temp[j];
+					temp[j]= t;
+				}
+			}
+		}
+		return temp;
+	}
+
+}

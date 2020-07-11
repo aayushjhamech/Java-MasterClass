@@ -1,0 +1,51 @@
+Concept - Array Difficulty Level 3
+
+Create a class Library with below attributes:
+
+int - id
+
+String - name
+
+String - address
+
+Make all the attributes private.Create corresponding getters and setters.
+
+Create a constructor which takes all parameters in the above sequence. The constructor should set the value of attributes to parameter values inside the constructor.
+
+Create a class LibraryDemo with main method
+
+Create a static method getEvenPositionLibrary in the LibraryDemo class.This method will take array of Library objects. This method returns an array with all elements in even position.
+
+Create an array of 5 Library objects in the main method
+Refer below sample main method and test the output:
+
+Call the above static method from the main method
+
+
+public class LibraryDemo {
+public static void main(String args[]){
+Library library1= new Library(64,"dtfgcza","hdrjgeh");
+Library library2= new Library(22,"kdlrcku","mrdbbia");
+Library library3= new Library(2,"dnnwcse","xyhxoiy");
+Library library4= new Library(34,"rtjpzow","dxzmfnp");
+Library library5= new Library(30,"cqfushy","fjqtnnc");
+
+
+Library[] objArray= {library1,library2,library3,library4,library5};
+
+Library[] objResultArray1= getEvenPositionLibrary(objArray);
+if(objResultArray1==null){
+System.out.println("Output after first operation is null. ");
+}else{
+System.out.println("Displaying contents of result array: ");
+
+for(Library library:objResultArray1){
+System.out.println(library.getId()+" " + library.getName()+" " + library.getAddress()+" ");
+}
+}
+}}
+Output
+Displaying contents of result array: 
+64 dtfgcza hdrjgeh 
+2 dnnwcse xyhxoiy 
+30 cqfushy fjqtnnc 

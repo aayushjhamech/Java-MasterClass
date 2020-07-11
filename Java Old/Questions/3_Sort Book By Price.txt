@@ -1,0 +1,107 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String args[] ) throws Exception {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+        
+        Book[] books = new Book[4];
+       
+        
+        Scanner sc = new Scanner(System.in);
+        
+        for(int i = 0;i<books.length;i++)
+        {
+            int id = sc.nextInt();sc.nextLine();
+            String title = sc.nextLine();
+            String author = sc.nextLine();
+            
+            double price = sc.nextDouble();
+            
+            books[i]= new Book(id,title,author,price);
+        }
+      
+        
+        sortBooksByPrice(books);
+        
+       
+        for(Book b:books)
+        {
+           System.out.println(b.getId()+" "+b.getTitle()+ " " + b.getAuthor()+ " "+ b.getPrice());
+        }
+        
+       
+    }
+    
+    public static void sortBooksByPrice(Book[] books)
+    {
+        
+        for(int i = 0;i<books.length;i++)
+        {
+            for(int j = 0;j<i;j++)
+            {
+                if(books[i].getPrice() < books[j].getPrice())
+                {
+                    Book tmp = books[i];
+                    books[i] = books[j];
+                    books[j] = tmp;
+                }
+            }
+        }
+        
+        
+    }
+}
+
+class Book
+{
+       
+        private int id;
+        private String title;
+        private String author;
+        private double price; 
+        public int getId() {
+			return id;
+		}
+
+		public void setId(int id) {
+			this.id = id;
+		}
+
+		public String getTitle() {
+			return title;
+		}
+
+		public void setTitle(String title) {
+			this.title = title;
+		}
+
+		public String getAuthor() {
+			return author;
+		}
+
+		public void setAuthor(String author) {
+			this.author = author;
+		}
+
+		public double getPrice() {
+			return price;
+		}
+
+		public void setPrice(double price) {
+			this.price = price;
+		}
+
+		
+    
+    public Book(int id, String title, String author, double price)
+    {
+        this.id = id;
+        this.title = title;
+        this.author = author;
+        this.price = price;
+    }
+}

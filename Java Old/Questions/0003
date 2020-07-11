@@ -1,0 +1,13 @@
+"Define main method in Solution class to read a number (without digits). The program should display the answer which is addition of those digits. 
+
+
+
+Sample input:
+
+123
+
+Output
+
+6
+
+"

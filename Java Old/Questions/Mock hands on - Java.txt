@@ -1,0 +1,76 @@
+Java proctored assessment mock questions (samples for 10 marks question):
+
+1. Create Solution class with main method. 
+Read a number (without digits and non negative) using Scanner.
+Program should print largest and smallest digit in that number (print output in separate lines).
+Consider below sample input and output:
+
+Input:
+38729
+
+Output:
+9
+2
+
+2. Create Solution class with main method.
+Read a String value using Scanner.
+The program should print largest and smallest character (as per ASCII sqeuence) together. 
+Consider below sample input and output (Output refers 'o' as largest and 'P' as smallest as we are following ASCII sequence):
+
+Input:
+Phone
+
+Output:
+oP
+
+3. Create Solution class with main method. 
+Read a String value using Scanner. 
+The program should print the count of upper case and lower case alphabet characters in that String (print output in separate lines).
+Consider below sample input and output:
+
+Input:
+DaTa#abC123
+
+Output:
+3
+4
+
+4.Create Solution class with main method. 
+Read a String value using Scanner. 
+The program should print sum of digits in that String. Input String may have non digit characters too, which should be ignored.
+Consider below sample input and output:
+
+Input:
+DaTa#abC123ww
+
+Output:
+6
+
+5. Write main method in Solution class.
+
+The method will read a String value and print the minimum valued character (as per alphabet and ASCII sequence). 
+
+Consider below sample input and output:
+
+Input:
+
+HellO
+
+Output:
+
+H
+
+Important: Answer is not 'e' since 'H' has lower ASCII value then 'e'
+
+6. Define main method in Solution class.
+
+The program will read a String value. It will calculate total number of vowels in that string and print the answer.
+
+Sample input:
+
+internal
+
+Output:
+
+3
+

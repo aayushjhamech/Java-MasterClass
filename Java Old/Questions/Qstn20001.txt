@@ -1,0 +1,15 @@
+"Define main method in Solution class. 
+
+The program will read a number (without decimal) and print the same in reverse order. 
+
+
+
+Sample input:
+
+3454
+
+Output
+
+4543
+
+"

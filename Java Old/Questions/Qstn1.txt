@@ -1,0 +1,27 @@
+"Define main method in Solution class.
+
+
+
+The program will read a String value. It will calculate total number of vowels in that string and print the answer.
+
+
+
+Sample input:
+
+internal
+
+Output:
+
+3
+
+
+
+Sample input:
+
+Apple
+
+Output:
+
+2
+
+"

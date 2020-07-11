@@ -1,0 +1,16 @@
+"Write main method in Solution class. 
+
+Method will read input number (without decimals) and print the maximum digit in that number.
+
+Consider below sample input and output:
+
+
+
+input:
+
+8656
+
+output:
+
+8
+"

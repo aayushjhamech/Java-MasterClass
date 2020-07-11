@@ -1,0 +1,48 @@
+Concept - Array Difficulty Level 1
+
+Create a class Library with below attributes:
+
+int - id
+
+String - name
+
+String - address
+
+Make all the attributes private.Create corresponding getters and setters.
+
+Create a constructor which takes all parameters in the above sequence. The constructor should set the value of attributes to parameter values inside the constructor.
+
+Create a class LibraryDemo with main method
+
+Create the below static method searchLibraryById in the LibraryDemo class.
+
+searchLibraryById(Library[] objArray)
+
+This method will take array of Library objects and id as input and returns the position of the id if found or -1 if not found.
+
+Create an array of 5 Library objects in the main method
+Refer below sample main method and test the output:
+
+Call the above static method from the main method
+
+
+public class LibraryDemo {
+public static void main(String args[]){
+Library library1= new Library(27,"vjxiyhc","kyoyfsl");
+Library library2= new Library(34,"oguybhh","cuaxany");
+Library library3= new Library(10,"oxhdjcs","gvhtlzw");
+Library library4= new Library(19,"thamkrf","arijclh");
+Library library5= new Library(32,"cvljyye","heijkiv");
+
+
+Library[] objArray= {library1,library2,library3,library4,library5};
+
+int libraryres= searchLibraryById(objArray, 59);
+System.out.println("Output after first search: "+libraryres);
+
+int libraryres1= searchLibraryById(objArray, 34);
+System.out.println("Output after second search: "+libraryres1);
+}}
+Output
+Output after first search: -1
+Output after second search: 1

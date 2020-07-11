@@ -1,0 +1,53 @@
+Concept - Array Difficulty Level 2
+
+Create a class Library with below attributes:
+
+int - id
+
+String - name
+
+String - address
+
+Make all the attributes private.Create corresponding getters and setters.
+
+Create a constructor which takes all parameters in the above sequence. The constructor should set the value of attributes to parameter values inside the constructor.
+
+Create a class LibraryDemo with main method
+
+Create the below static method sortLibraryByAddress in the LibraryDemo class.
+
+sortLibraryByAddress(Library[] objArray)
+
+The method will sort the array based on address and return the sorted array.
+
+Create an array of 5 Library objects in the main method
+Refer below sample main method and test the output:
+
+Call the above static method from the main method
+
+
+public class LibraryDemo {
+public static void main(String args[]){
+Library library1= new Library(89,"kqhwalg","ycnkoxu");
+Library library2= new Library(94,"amsjiak","kqcdtka");
+Library library3= new Library(75,"vcwdtby","jnwmodz");
+Library library4= new Library(48,"mwcpxew","oqkgnep");
+Library library5= new Library(60,"zlywkig","rpswkjv");
+
+
+Library[] objArray= {library1,library2,library3,library4,library5};
+
+Library[] objArrayRes= sortLibraryByAddress(objArray);
+System.out.println("Displaying contents of array: ");
+
+for(Library library:objArray){
+System.out.println(library.getId()+" " + library.getName()+" " + library.getAddress()+" ");
+}
+}}
+Output
+Displaying contents of array: 
+75 vcwdtby jnwmodz 
+94 amsjiak kqcdtka 
+48 mwcpxew oqkgnep 
+60 zlywkig rpswkjv 
+89 kqhwalg ycnkoxu 
