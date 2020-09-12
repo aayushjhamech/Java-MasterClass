@@ -1,10 +1,8 @@
-package com.timbuchalka;
+package com.company;
 
 import java.util.ArrayList;
 
-/**
- * Created by dev on 4/09/15.
- */
+
 public class Bank {
     private String name;
     private ArrayList<Branch> branches;
@@ -35,7 +33,7 @@ public class Bank {
     public boolean addCustomerTransaction(String branchName, String customerName, double amount) {
         Branch branch = findBranch(branchName);
         if(branch != null) {
-            return branch.addCustomerTransaction(customerName, amount);
+            return branch.newTransaction(customerName, amount);
         }
 
         return false;
@@ -57,7 +55,7 @@ public class Bank {
        if(branch != null) {
            System.out.println("Customer details for branch " + branch.getName());
 
-           ArrayList<Customer> branchCustomers = branch.getCustomers();
+           ArrayList<Customer> branchCustomers = branch.getCustomer();
            for(int i=0; i<branchCustomers.size(); i++) {
                Customer branchCustomer = branchCustomers.get(i);
                System.out.println("Customer: " + branchCustomer.getName() + "[" + (i+1) + "]");
