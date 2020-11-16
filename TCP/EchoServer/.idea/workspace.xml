@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a18a32e7-e3c7-4aa0-8291-27602579e095" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculator/Calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EchoClient/out/production/EchoClient/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EchoServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Echoer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime and Happy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime and Happy/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime and Happy/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime and Happy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime and Happy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime and Happy/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime and Happy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime and Happy/Prime and Happy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime and Happy/src/com/company/ChildOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime and Happy/src/com/company/ChildTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime and Happy/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime and Happy/src/com/company/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proj/Proj.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shopping Cart/Shopping Cart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shopping Cart/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shopping Cart/src/com/company/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport/Sport.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport/src/com/company/FootballTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport/src/com/company/HockeyTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport/src/com/company/Sport.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kJitgfHCukJwYb91MZc0qdHO7J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="EchoServer" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a18a32e7-e3c7-4aa0-8291-27602579e095" name="Default Changelist" comment="" />
+      <created>1605425311423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605425311423</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="197" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1605446617831">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="197" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605446617831" />
+    <state width="724" height="2" key="GridCell.Tab.0.bottom" timestamp="1605447512430">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605447512430" />
+    <state width="724" height="2" key="GridCell.Tab.0.center" timestamp="1605447512430">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605447512430" />
+    <state width="724" height="2" key="GridCell.Tab.0.left" timestamp="1605447512430">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605447512430" />
+    <state width="724" height="2" key="GridCell.Tab.0.right" timestamp="1605447512430">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605447512430" />
+    <state x="530" y="68" key="SettingsEditor" timestamp="1605426090635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="68" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605426090635" />
+    <state x="418" y="41" key="new project wizard" timestamp="1605505469606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="418" y="41" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1605505469606" />
+  </component>
+</project>
