@@ -1,5 +1,18 @@
 package com.company;
+
+
 public class Main {
+
+    public static void main(String[] args) {
+        list.push(4);
+        list.push(6);
+        list.push(1);
+        printList(list);
+        list.pop();
+        printList(list);
+    }
+
+
     private static Node first = null;
     static Main list = new Main();
     public static void push(int data) {
@@ -7,11 +20,14 @@ public class Main {
         newNode.next = first;
         first = newNode;
     }
+
     public static void pop() {
         Node temp = first;
         first = first.next;
         System.out.println("Removed element Elements: " + temp.data);
     }
+
+    
     public static void printList(Main list) {
         Node currentNode = list.first;
         System.out.print("Linked List Elements: ");
@@ -21,12 +37,5 @@ public class Main {
         }
         System.out.println();
     }
-    public static void main(String[] args) {
-        list.push(4);
-        list.push(6);
-        list.push(1);
-        printList(list);
-        list.pop();
-        printList(list);
-    }
+
 }
